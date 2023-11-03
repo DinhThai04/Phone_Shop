@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phone_Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -18,45 +17,81 @@
     <div class="app">
         <!-- Header -->
         <header class="header">
-            <div class="grid">
-                <div class="header-with-search">
-                    <div class="header__logo">
+                
+           <!--  -->
+            <div class="header__nav">
+                <!-- nav 1 -->
+                <div class="header__nav-toolbar nav-toolbar1">
+                    <!-- start logo -->
+                   <a href="/" class="header__nav-logo">
+                    <div class="header-logo">
+                        <img class="header__pc-logo" src="https://www.pureitwater.com/media/wysiwyg/imgtheme/pureit_logo.png" alt="">
                     </div>
+                   </a>
+                   <!-- end logo -->
+
+                    <!-- start list phone -->
+                   <div class="header__nav-list">
+                        <ul class="header__nav-list1">
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-item-phone">IPHONE</a>
+                            </li>
+
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-item-phone">SAMSUM</a>
+                            </li>
+
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-item-phone">SELMI</a>
+
+                            </li>
+
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-item-phone">XIAOMI</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end list phone -->
+
                 </div>
-                <!--  -->
-                <nav class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-phone">IPHONE</a>
-                        </li>
+                <!-- end nav 1 -->
 
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-phone">SAMSUM</a>
-                        </li>
+                <!-- start nav 2 -->
+                <div class="header__nav-toolbar nav-toolbar2"> 
+                    <!-- start search -->
+                    <div class="header__nav-search">
+                        <span class="span1">
+                            <span class="span-search">
+                                <input class="search_input" type="text" placeholder="Tìm sản phẩm tại đây" value="" name="">
+                            </span>
+                            <span class="span-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </span>
+                    </div>
+                    <!-- end search -->
 
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-phone">SELMI</a>
-
-                        </li>
-
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-phone">XIAOMI</a>
-                        </li>
-                    </ul>
-
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item"><i class="fa-regular fa-user"></i> Đăng Nhập</li>
-                        <li class="header__nav-item">Đăng Ký </li>
-                        <li class="header__nav-item">
-                            <a href="" class="header__nav-item-phone">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                    <!-- start list sigin/login -->
+                    <div class="header__nav-list">
+                        <ul class="header__nav-list2 ">
+                            <li class="header__nav-item"><button><i class="fa-regular fa-user"></i> Đăng Nhập</button></li>
+                            <li class="header__nav-item"><button>Đăng Ký</button> </li>
+                            <li class="header__nav-item">
+                                <button class="cart">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end list sigin/login -->
+                </div>
             </div>
+        
             
         </header>
+        <div class="slider">
+            
+        </div>
 
         <!-- Content -->
         <div class="container">
@@ -65,7 +100,6 @@
 
         <!-- Footer -->
         <footer class="footer">
-///Đỉnh quá tú ơi
         </footer>
         
     </div>
